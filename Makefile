@@ -2,7 +2,7 @@
 .SUFFIXES:
 .SUFFIXES: .nasm .bin
 
-default: boot2craft.bin
+default: foo.bin
 	@printf 'QEMU\t$?\n'
 	@qemu-system-i386 \
 		-drive file=$?,format=raw \
